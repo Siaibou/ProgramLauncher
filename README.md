@@ -8,7 +8,7 @@
 
 ---
 
-## 📘 Overview {#overview-task}
+## 📘 Overview
 
 **Task Scheduler** is a lightweight and versatile tool that allows you to **schedule and automate the execution of files or programs** (.py, .exe, .txt, etc.) at specific dates and times.  
 You can use it in **two different modes**:
