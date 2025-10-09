@@ -4,7 +4,7 @@ import os
 import sys
 import subprocess
 
-# --- Fonction principale à appeler depuis le GUI ---
+# --- Main function to call from the GUI ---
 def run_task(file_path, start_date, start_time, interval, repetition):
     # Votre code actuel, remplacez sys.argv[...] par les paramètres de la fonction
     # --- Validate inputs ---
@@ -98,9 +98,10 @@ def run_task(file_path, start_date, start_time, interval, repetition):
 
     print("Process completed.")
 
-# --- Permet l'exécution via CLI ---
+# --- Allows execution via CLI ---
 if __name__ == "__main__":
     if len(sys.argv) != 6:
         print("Usage: main.py <file_path> <start_date> <start_time> <interval> <repetition>")
         sys.exit(1)
     run_task(*sys.argv[1:6])
+
