@@ -8,17 +8,15 @@
 
 
 ## 🧭 Table of Contents
-1. [Overview](#-overview)
-2. [Features](#-features)
-3. [Requirements](#-requirements)
-4. [GUI Mode](#-gui-mode)
-5. [Batch Mode](#-batch-mode-command-line)
-
-
+1. [Overview](#overview-task)
+2. [Features](#features-task)
+3. [Requirements](#requirements-task)
+4. [GUI Mode](#gui-mode-task)
+5. [Batch Mode](#batch-mode-task)
 
 ---
 
-## 📘 Overview
+## 📘 Overview {#overview-task}
 
 **Task Scheduler** is a lightweight and versatile tool that allows you to **schedule and automate the execution of files or programs** (.py, .exe, .txt, etc.) at specific dates and times.  
 You can use it in **two different modes**:
