@@ -1,7 +1,7 @@
 # 🗓️ Task Scheduler
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Mac-lightgrey)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Stable-success.svg)
 ![GUI](https://img.shields.io/badge/Mode-GUI%20%2F%20Batch-orange.svg)
@@ -50,9 +50,10 @@ The tool was developed to make repeated or timed task execution **simple and fle
 
 ### 🐍 How to check if Python is installed
 
-Open a Command Prompt and type:
+Open a Command Prompt (or Terminal on Mac) and type:
 ```bash
-where python
+where python # Windows
+which python  # Mac/Linux
 ```
 If a path is displayed, Python is already installed.
 If not, download it here → https://www.python.org/downloads/
