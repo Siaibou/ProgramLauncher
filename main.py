@@ -6,7 +6,6 @@ import subprocess
 
 # --- Main function to call from the GUI ---
 def run_task(file_path, start_date, start_time, interval, repetition):
-    # Votre code actuel, remplacez sys.argv[...] par les paramètres de la fonction
     # --- Validate inputs ---
     error_detected = False
     error_messages = {
@@ -104,4 +103,5 @@ if __name__ == "__main__":
         print("Usage: main.py <file_path> <start_date> <start_time> <interval> <repetition>")
         sys.exit(1)
     run_task(*sys.argv[1:6])
+
 
