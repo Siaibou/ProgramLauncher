@@ -8,6 +8,15 @@
 
 ---
 
+## 🧭 Table of Contents
+- [Overview](#-overview)
+- [Features](#-features)
+- [Requirements](#-requirements)
+- [GUI Mode](#-gui-mode)
+- [Batch Mode](#-batch-mode)
+
+---
+
 ## 📘 Overview
 
 **Task Scheduler** is a lightweight and versatile tool that allows you to **schedule and automate the execution of files or programs** (.py, .exe, .txt, etc.) at specific dates and times.  
@@ -55,8 +64,8 @@ If not, download it here → https://www.python.org/downloads/
 - Start Date (DDMMYYYY): Leave empty to use today’s date.
 - Start Time (HHMMSS): Leave empty to use the current time.
 - Interval (HHMMSS): Time delay between executions.
-- Repetition: Number of times to repeat (It's impossible to put 0, to avoid infinite loop).
-- Launch: Starts execution in background.
+- Repetition: Number of times to repeat.
+- Launch: Starts execution.
 - Cancel: Stops the running task.
 - Log area: Displays real-time execution status (instead of pop-ups).
 
@@ -80,36 +89,24 @@ Notes:
 
 - Empty quotes "" for date/time will automatically use the current system values.
 - The interval cannot be empty — it must always follow the HHMMSS format.
-- If repetition is set to 0, the execution will repeat indefinitely until manually stopped.
-- Works with .exe, .py, .txt, or any file associated with a Windows program.
 
 ## 📄 Example Batch File
 
 ```bash
 @echo off
-start /min python task_scheduler.py "C:\MyScripts\backup.py" "" "" 010000 0
+start /min python "C:\path\to\task_scheduler.py" "C:\path\to\my\file.txt" "" "" 010000 0
 pause
 ```
-➡ This will run backup.py every hour indefinitely, starting immediately.
-
-## 📦 Project Structure
-
-TaskScheduler/
-│
-├── main.py                # GUI interface (Tkinter)
-├── task_scheduler.py      # Core logic and background execution
-├── README.md              # Documentation
-├── requirements.txt       # (Optional)
-└── LICENSE                # License file
+➡ This will run file.txt every hour indefinitely, starting immediately.
 
 ### 🧠 How It Works
 
 1. The script reads user parameters (file path, date, time, interval, repetition).
 2. It validates inputs and schedules the first execution.
-3. It launches the program in background mode using subprocess.STARTUPINFO() to hide the console.
-4. Repeats execution until the repetition count (or cancel command) is reached.
+3. Repeats execution until the repetition count (or cancel command) is reached.
 
-🧑‍💻 Author
+---
 
-Developed by Siaibou Camara
-📧 Contact: LinkedIn
+<p align="center">
+  <a href="https://github.com/Siaibou">⬅️ Back to my GitHub Portfolio</a> •
+</p>
