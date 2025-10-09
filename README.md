@@ -85,7 +85,7 @@ Notes:
 
 ```bash
 @echo off
-start /min python "C:\path\to\task_scheduler.py" "C:\path\to\my\file.txt" "" "" 010000 0
+start /min python "C:\path\to\main.py" "C:\path\to\my\file.txt" "" "" 010000 0
 pause
 ```
 ➡ This will run file.txt every hour indefinitely, starting immediately.
