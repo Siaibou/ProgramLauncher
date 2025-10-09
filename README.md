@@ -6,11 +6,10 @@
 ![Status](https://img.shields.io/badge/Status-Stable-success.svg)
 ![GUI](https://img.shields.io/badge/Mode-GUI%20%2F%20Batch-orange.svg)
 
----
 
 ## 🧭 Table of Contents
-- [Overview](#-overview)
-- [Features](#-features)
+- [Overview](#overview)
+- [Features](#features)
 - [Requirements](#requirements)
 - [GUI Mode](#gui-mode)
 - [Batch Mode](#batch-mode)
@@ -28,7 +27,6 @@ You can use it in **two different modes**:
 
 The tool was developed to make repeated or timed task execution **simple and flexible**
 
----
 
 ## 🚀 Features
 
@@ -40,7 +38,7 @@ The tool was developed to make repeated or timed task execution **simple and fle
 - Automatically uses **current date/time** if left blank  
 - Simple installation, no external dependencies
 
----
+
 
 ## ⚙️ Requirements
 
