@@ -8,7 +8,7 @@
 
 
 ## 🧭 Table of Contents
-- [Overview](#overview)
+[Overview](#overview)
 - [Features](#features)
 - [Requirements](#requirements)
 - [GUI Mode](#gui-mode)
