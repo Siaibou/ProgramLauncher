@@ -8,11 +8,11 @@
 
 
 ## 🧭 Table of Contents
-1. [Overview](#--overview)
-2. [Features](#features)
-3. [Requirements](#requirements)
-4. [GUI Mode](#gui-mode)
-5. [Batch Mode](#batch-mode-command-line)
+1. [Overview](#-overview)
+2. [Features](#-features)
+3. [Requirements](#-requirements)
+4. [GUI Mode](#-gui-mode)
+5. [Batch Mode](#-batch-mode-command-line)
 
 
 
