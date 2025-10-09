@@ -9,11 +9,12 @@
 ---
 
 ## 🧭 Table of Contents
-- [Overview](#-overview)
-- [Features](#-features)
-- [Requirements](#-requirements)
-- [GUI Mode](#-gui-mode)
-- [Batch Mode](#-batch-mode)
+- [Overview](#overview)
+- [Features](#features)
+- [Requirements](#requirements)
+- [GUI Mode](#gui-mode)
+- [Batch Mode](#batch-mode)
+
 
 ---
 
@@ -108,5 +109,5 @@ pause
 ---
 
 <p align="center">
-  <a href="https://github.com/Siaibou">⬅️ Back to my GitHub Portfolio</a> •
+  <a href="https://github.com/Siaibou">⬅️ Back to my GitHub Portfolio</a> 
 </p>
