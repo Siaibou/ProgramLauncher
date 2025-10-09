@@ -1,4 +1,5 @@
-start Python C:\my\python\file\path.py C:\my\program\path.pdf JJMMAAAA HHMMSS 000010 4
+start Python "C:\my\python\file\task_scheduler.py" "C:\my\file\path.pdf" JJMMAAAA HHMMSS 000010 4
+
 
 
 
