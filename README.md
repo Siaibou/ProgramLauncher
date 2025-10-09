@@ -11,9 +11,9 @@
 ## 🧭 Table of Contents
 - [Overview](#-overview)
 - [Features](#-features)
-- [Requirements](#-requirements)
-- [GUI Mode](#-gui-mode)
-- [Batch Mode](#-batch-mode)
+- [Requirements](#requirements)
+- [GUI Mode](#gui-mode)
+- [Batch Mode](#batch-mode)
 
 
 ---
