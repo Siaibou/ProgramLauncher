@@ -6,14 +6,6 @@
 ![Status](https://img.shields.io/badge/Status-Stable-success.svg)
 ![GUI](https://img.shields.io/badge/Mode-GUI%20%2F%20Batch-orange.svg)
 
-
-## 🧭 Table of Contents
-1. [Overview](#-overview)
-2. [Features](#-features) 
-3. [Requirements](#-requirements)
-4. [GUI Mode](#-gui-mode)
-5. [Batch Mode](#-batch-mode-command-line)
-
 ---
 
 ## 📘 Overview {#overview-task}
